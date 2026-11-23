@@ -191,7 +191,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--red);outline-off
 </form></div>
 
 <script>
-let API_URL="COLLER_ICI_L_ADRESSE_DU_SCRIPT";
+let API_URL="https://script.google.com/macros/s/AKfycbwEcAy-KKrpco3Bf8IdaSyUA5Se5IQWw0jpGMvd4LGTYz_LRgZunTp2xVpnfFpJPog/exec";
 try{const q=new URLSearchParams(location.search).get("api");if(q)localStorage.setItem("ees_api",q);const s=localStorage.getItem("ees_api");if(s&&API_URL.indexOf("http")!==0)API_URL=s}catch(e){}
 const SYNC=API_URL.indexOf("http")===0;
 var CODE="",SNAP=null,pushT=null,pushing=false,dirty=false;
